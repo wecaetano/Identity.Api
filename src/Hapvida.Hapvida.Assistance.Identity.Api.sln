@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hapvida.Hapvida.Assistance.Identity.Api.Api", "Hapvida.Hapvida.Assistance.Identity.Api.Api\Hapvida.Hapvida.Assistance.Identity.Api.Api.csproj", "{CEB37309-364F-4467-8AFF-1F3888D7EF92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hapvida.Hapvida.Assistance.Identity.Api.Domain", "Hapvida.Hapvida.Assistance.Identity.Api.Domain\Hapvida.Hapvida.Assistance.Identity.Api.Domain.csproj", "{978414EC-4AF4-4971-B911-0D71449C642F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hapvida.Hapvida.Assistance.Identity.Api.Infra.Data.Queries", "Hapvida.Hapvida.Assistance.Identity.Api.Infra.Data.Queries\Hapvida.Hapvida.Assistance.Identity.Api.Infra.Data.Queries.csproj", "{203D62C5-732B-4889-BDDD-AAF49CCBF521}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hapvida.Hapvida.Assistance.Identity.Api.UnitTests", "Hapvida.Hapvida.Assistance.Identity.Api.UnitTests\Hapvida.Hapvida.Assistance.Identity.Api.UnitTests.csproj", "{AB9476EA-F018-451D-8CF4-ED421279F599}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{3E480D53-9DF9-4C3F-B49C-04E00169AA60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Domain", "1 - Domain", "{7843291F-653A-4F22-AD29-1E8D06AF647B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Infrastructure", "2 - Infrastructure", "{FC569E8E-0D7D-4CEF-9DE2-860894034F44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Tests", "3 - Tests", "{E930EC5A-47DD-48BA-801E-BF3B2BFA7151}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEB37309-364F-4467-8AFF-1F3888D7EF92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEB37309-364F-4467-8AFF-1F3888D7EF92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEB37309-364F-4467-8AFF-1F3888D7EF92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEB37309-364F-4467-8AFF-1F3888D7EF92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{978414EC-4AF4-4971-B911-0D71449C642F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{978414EC-4AF4-4971-B911-0D71449C642F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{978414EC-4AF4-4971-B911-0D71449C642F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{978414EC-4AF4-4971-B911-0D71449C642F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{203D62C5-732B-4889-BDDD-AAF49CCBF521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{203D62C5-732B-4889-BDDD-AAF49CCBF521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{203D62C5-732B-4889-BDDD-AAF49CCBF521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{203D62C5-732B-4889-BDDD-AAF49CCBF521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB9476EA-F018-451D-8CF4-ED421279F599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB9476EA-F018-451D-8CF4-ED421279F599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB9476EA-F018-451D-8CF4-ED421279F599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB9476EA-F018-451D-8CF4-ED421279F599}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CEB37309-364F-4467-8AFF-1F3888D7EF92} = {3E480D53-9DF9-4C3F-B49C-04E00169AA60}
+		{978414EC-4AF4-4971-B911-0D71449C642F} = {7843291F-653A-4F22-AD29-1E8D06AF647B}
+		{203D62C5-732B-4889-BDDD-AAF49CCBF521} = {FC569E8E-0D7D-4CEF-9DE2-860894034F44}
+		{AB9476EA-F018-451D-8CF4-ED421279F599} = {E930EC5A-47DD-48BA-801E-BF3B2BFA7151}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D1547A8-BD5D-4106-8787-9BA0ED5D371A}
+	EndGlobalSection
+EndGlobal

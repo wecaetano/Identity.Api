@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Hapvida.Core.Infra.Data.MongoDb" Version="1.0.9" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Hapvida.Hapvida.Assistance.Identity.Api.Domain\Hapvida.Hapvida.Assistance.Identity.Api.Domain.csproj" />
+    </ItemGroup>
+
+</Project>

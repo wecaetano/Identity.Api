@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Hapvida.Core.Domain" Version="1.0.4" />
+        <PackageReference Include="Hapvida.Core.Infra.OpenTelemetry.Exporter.Azure" Version="1.0.5" />
+        <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="6.0.5" />
+    </ItemGroup>
+
+</Project>

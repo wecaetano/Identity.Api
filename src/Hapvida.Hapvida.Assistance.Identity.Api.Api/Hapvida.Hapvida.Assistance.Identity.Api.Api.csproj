@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Hapvida.Core.Api.Http" Version="1.0.10" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Hapvida.Hapvida.Assistance.Identity.Api.Domain\Hapvida.Hapvida.Assistance.Identity.Api.Domain.csproj" />
+        <ProjectReference Include="..\Hapvida.Hapvida.Assistance.Identity.Api.Infra.Data.Queries\Hapvida.Hapvida.Assistance.Identity.Api.Infra.Data.Queries.csproj" />
+    </ItemGroup>
+
+</Project>
